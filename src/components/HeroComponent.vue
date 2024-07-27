@@ -1,7 +1,8 @@
 <template>
   <section id="hero" class="hero">
     <div class="hero-content">
-      <h1>Your Trusted Legal Partner</h1>
+    <h1> Jordan & Sans Law </h1>
+      <h2>Your Trusted Legal Partner</h2>
       <p>Expert legal services you can rely on</p>
       <a href="#contact" class="cta-btn">Get in Touch</a>
     </div>
@@ -10,7 +11,7 @@
 
 <script>
 export default {
-  name: 'Hero',
+  name: 'HeroComponent',
 };
 </script>
 

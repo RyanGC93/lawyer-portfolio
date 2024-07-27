@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Contact',
+  name: 'ContactComponent',
   data() {
     return {
       name: '',

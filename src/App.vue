@@ -1,31 +1,31 @@
 <template>
   <div id="app">
-    <Navbar />
-    <Hero />
-    <Services />
-    <About />
-    <Contact />
-    <Footer />
+    <NavbarComponent />
+    <HeroComponent />
+    <ServicesComponent />
+    <AboutComponent />
+    <ContactComponent />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Hero from './components/Hero.vue';
-import Services from './components/Services.vue';
-import About from './components/About.vue';
-import Contact from './components/Contact.vue';
-import Footer from './components/Footer.vue';
+import NavbarComponent from './components/NavbarComponent.vue';
+import HeroComponent from './components/HeroComponent.vue';
+import ServicesComponent from './components/ServicesComponent.vue';
+import AboutComponent from './components/AboutComponent.vue';
+import ContactComponent from './components/ContactComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    Navbar,
-    Hero,
-    Services,
-    About,
-    Contact,
-    Footer,
+    NavbarComponent,
+    HeroComponent,
+    ServicesComponent,
+    AboutComponent,
+    ContactComponent,
+    FooterComponent,
   },
 };
 </script>

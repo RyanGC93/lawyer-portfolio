@@ -2,8 +2,9 @@
   <div id="app">
     <NavbarComponent />
     <HeroComponent />
-    <ServicesComponent />
     <AboutComponent />
+    <ServicesComponent />
+    <TeamComponent />
     <ContactComponent />
     <FooterComponent />
   </div>
@@ -14,6 +15,7 @@ import NavbarComponent from './components/NavbarComponent.vue';
 import HeroComponent from './components/HeroComponent.vue';
 import ServicesComponent from './components/ServicesComponent.vue';
 import AboutComponent from './components/AboutComponent.vue';
+import TeamComponent from './components/TeamComponent.vue';
 import ContactComponent from './components/ContactComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
@@ -22,8 +24,9 @@ export default {
   components: {
     NavbarComponent,
     HeroComponent,
-    ServicesComponent,
     AboutComponent,
+    ServicesComponent,
+    TeamComponent,
     ContactComponent,
     FooterComponent,
   },

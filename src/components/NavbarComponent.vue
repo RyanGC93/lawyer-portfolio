@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <div class="logo">Lawyer</div>
+      <div class="logo">Jordan & Sans</div>
       <div class="nav-links">
         <a href="#hero">Home</a>
         <a href="#services">Services</a>
